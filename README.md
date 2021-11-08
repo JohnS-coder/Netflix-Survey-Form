@@ -1,4 +1,4 @@
-# Link To My Project [Netflix Survey Form](https://nurkocar.github.io/Survey-Form-Netflix/)
+# Link To My Project [Netflix Survey Form](https://johns-coder.github.io/Netflix-Survey-Form/)
 
 ## Here is the view of my project...
 
