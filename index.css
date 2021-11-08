@@ -1,0 +1,107 @@
+/* This is the external css file of Project1-Survey Form(Netflix) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    color: white;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 2% 6%;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 3.12rem;
+    padding-top: 2%;
+    letter-spacing: 5px;
+}
+
+span {
+    color: red;
+}
+
+#description {
+    text-align: center;
+    font-size: 1.56rem;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    margin-bottom: 2%;
+}
+
+#survey_form {
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 1%;
+}
+
+#name,
+#age,
+#email,
+#content_type {
+    width: 90%;
+    /* height: 36px; */
+    margin-top: 2%;
+    border: none;
+    padding: 10px;
+}
+
+.box {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+textarea {
+    margin-top: 2%;
+    width: 90%;
+}
+
+#submit {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    width: 33%;
+    height: 45px;
+    border: none;
+    margin: 4% 33%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: white;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    #survey_form {
+        width: 95%;
+    }
+    #submit {
+        font-size: 1.05rem;
+        letter-spacing: 1px;
+    }
+    #description {
+        font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #survey_form {
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    #survey_form {
+        width: 70%;
+    }
+  }
